@@ -3,17 +3,16 @@ title: "newpost"
 layout: post
 ---
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ## My first post
 
-
-```r
+```{r}
 x <- rnorm(100, 1, 2)
 y <- rnorm(100, 2, 1)
 plot(x, y)
 ```
-
-![plot of chunk unnamed-chunk-1](/figure/source/2016-10-20-post1/unnamed-chunk-1-1.png)
 
 Add some text here.
