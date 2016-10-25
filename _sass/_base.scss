@@ -1,187 +1,228 @@
-/* Reset Basic Elements
- * ============================================== */
-    body, h1, h2, h3, h4, h5, h6,
-    p, blockquote, pre, hr,
-    dl, dd, ol, ul, figure {
-        margin: 0;
-        padding: 0;
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/** Variables **********************************************/
+$base-font-family:              Helvetica, sans-serif;
+$base-line-height:              1.5em;
+$horizontal-spacing-unit:       50px;
+$vertical-spacing-unit:         40px;
+$nav-height:                    56px;
+
+/* portfolio tinkering */
+$img_spacing: 5px; 
+$img_height: 275px;
+$caption_font_size: 12px;
+$caption_color: #aaa;
+
+/* COLORS  */
+$red:  #FF3636;
+$orange: #F29105;
+$blue: #2698BA;
+$green: #11D68B;
+$lime_green: #B7D12A;
+$purple: #B509AC;
+
+
+$grey-color-dark: #333;   /* footer */
+$grey-color-light: #ddd;  /* navigation bar border */
+$text-color:     #666;
+
+/* Set theme color *************************/
+$theme-color:   $red;
+
+
+/************************************************************/
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 100;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $vertical-spacing-unit / 2;
+}
+
+.alignright {
+    float: right;
+}
+
+
+hr{
+    /* Inset, by Dan Eden */
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $horizontal-spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
     }
+}
 
-/* Basic Styling
- * ============================================== */
-    body {
-        font-family: $base-font-family;
-        font-size: $base-font-size;
-        line-height: $base-line-height;
-        font-weight: 300;
-        color: $text-color;
-        background-color: $background-color !important;
-        -webkit-text-size-adjust: 100%;
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+
+/**
+ * Links
+ */
+a {
+    color: $text-color;
+    text-decoration: none;
+    /*
+    &:visited {
+        color: darken($brand-color, 15%); 
     }
-
-/* Set Margin Bottom for Vertical Rhythm
- * ============================================== */
-    h1, h2, h3, h4, h5, h6,
-    p, blockquote, pre,
-    ul, ol, dl, figure,
-    %vertical-rhythm {
-        margin-bottom: $spacing-unit / 2;
-    }
-
-/* Images and Figures
- * ============================================== */
-    img {
-        max-width: 100%;
-        vertical-align: middle;
-    }
-
-    figure > img {
-        display: block;
-    }
-
-    figcaption {
-        font-size: $small-font-size;
-    }
-
-/* Lists
- * ============================================== */
-    ul, ol {
-        margin-left: $spacing-unit;
-    }
-
-    li {
-        > ul,
-        > ol {
-             margin-bottom: 0;
-        }
-    }
-
-/* Headers
- * ============================================== */
-    h1, h2, h3, h4, h5, h6 {
-        font-weight: bold;
-        margin-bottom: 0px;
-    }
-
-    h1 {font-size: 1.9em !important;}
-    h2, {font-size: 1.5em !important;}
-    h3 {font-size: 1.3em;}
-    h4 {font-size: 1em;}
-    h5 {font-size: .9em;}
-    h6 {font-size: .8em;}
-
-
-/* Links
- * ============================================== */
-    a {
-        color: darken($brand-color, 5%);
+    */
+    &:hover {
+        color: $theme-color;
         text-decoration: none;
-
-        &:hover {
-            color: $brand-color;
-            text-decoration: none;
-        }
     }
+}
 
-/* Block Quotes
- * ============================================== */
-    blockquote {
-        color: #BBB;
-        border-left: 4px solid $brand-color;
+article a {
+    color: $theme-color;
+    font-weight: 100;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $text-color;
+    border-left: 10px solid $grey-color-light;
+    padding-left: $horizontal-spacing-unit / 2;
+    font-size: 18px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: $grey-color-light;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */ 
+
+.wrapper {
+    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $horizontal-spacing-unit;
+    padding-left: $horizontal-spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+        padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
-        font-size: 17px;
-        letter-spacing: -1px;
-        font-style: italic;
-
-        > :last-child {
-            margin-bottom: 0;
-        }
     }
+}
 
-/* Code Blocks
- * ============================================== */
-    pre,
-    code {
-        font-size: 13px;
-        border: 1px solid $grey-color-light;
-        font-family: Menlo, Monaco, "Andale Mono", serif;
+
+/**
+ * Clearfix
+ */
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
     }
+}
 
-    code {
-        padding: 1px 3px;
-        background-color: #FFF;
-        border-radius: 5px;
-    }
 
-    pre {
-        border-radius: 3px;
-        padding: 8px 12px;
-        overflow-x: scroll;
-        background-color: #F5F5F5;
 
-        > code {
-            background-color: #F5F5F5;
-            border: 0;
-            padding-right: 0;
-            padding-left: 0;
-        }
-    }
-
-/* Wrapper
- * ============================================== */
-    .wrapper {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-        margin-right: auto;
-        margin-left: auto;
-        padding-right: $spacing-unit;
-        padding-left: $spacing-unit;
-        @extend %clearfix;
-
-        @include media-query($on-laptop) {
-            max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-            max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-            padding-right: $spacing-unit / 2;
-            padding-left: $spacing-unit / 2;
-        }
-    }
-
-/* Clear Fix
- * ============================================== */
-    %clearfix {
-
-        &:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-    }
-
-/* TABLES
- * =============================================== */
-    table {
-        border-collapse: collapse;
-        border-spacing: 0
-    }
-
-    :not(.highlight)>table {
-    margin: 0 auto 1.5em auto
-    }
-
-    :not(.highlight)>table tr {
-        background-color: #fff;
-        border-top: 1px solid #ccc
-    }
-
-    :not(.highlight)>table tr th, :not(.highlight)>table tr td {
-        padding: 6px 13px;
-        border: 1px solid #ddd
-    }
-
-    :not(.highlight)>table tr th {
-        font-weight: bold
-    }
-
-    :not(.highlight)>table tr:nth-child(2n) {
-        background-color: #f8f8f8
-    }
