@@ -9,7 +9,7 @@ permalink: /about/
 I could describe some things about what happend in my life or what I did so far here. But how a good friend of mine always
 told me: It's not important where you come from, but where you go to. However, who is interested in the science
 I´m doing should visit my <a href="https://thehoffmanlab.com/group/martin-stoffel/" target="blank">lab's</a> website.
-If you are interested in the coding part of some of my projects just click on the little blue cat on the bottom of the page. 
+If you are interested in the coding part of some of my projects just click on the little cat on the bottom of the page. 
 
 
 

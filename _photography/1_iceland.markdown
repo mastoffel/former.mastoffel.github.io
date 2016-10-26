@@ -2,44 +2,57 @@
 layout: post
 title: cycling iceland
 description: some pictures of iceland
-img: /img/godafoss.jpg
+img: /img/road2.jpg
 ---
 
-Some pictures from the incredible bike trip around Iceland with my friend Luke last September. 
-
-<br/><br/><br/>
+Some unchronological pictures from the incredible bike trip around Iceland with my friend Luke last September. 
 
 <div>
-<center><img src="{{ site.baseurl }}/img/mountains_luke.jpg" alt="" title="luke" style="width:700px;" align="middle">
+<center><img src="{{ site.baseurl }}/img/mountains_luke.jpg" alt="" title="luke" style="width: 97%;" align="middle">
 </center>
 </div>
 <div class="col three caption">
 	The mountains after Husavik. 
 </div>
+<br/><br/>
 
-<br/><br/><br/>
-
-
-<div>
-<center><img src="{{ site.baseurl }}/img/godafoss.jpg" alt="" title="godafoss" style="width:700px;" align="middle">
-</center>
+<div class="img_row">
+	<img class="col two" src="{{ site.baseurl }}/img/husavik_luke.jpg" alt="" title="iclandic_town"/>
+	<img class="col one" src="{{ site.baseurl }}/img/Djupivogur.jpg" alt="" title="luke_husavik"/>
 </div>
-
 <div class="col three caption">
-	Godafoss waterfall
+	Luke preparing for the whale cruise and Djupovogur, a town in the westfjords.
 </div>
-
-<br/><br/><br/>
-
+<br/><br/>
 
 <div>
-<center><img src="{{ site.baseurl }}/img/icelandic_lake.jpg" alt="" title="lake" style="width:700px;" align="middle">
-</center>
+<img class="col three" src="{{ site.baseurl }}/img/godafoss.jpg" alt="" title="godafoss">
+</div>
+<div class="col three caption">
+  Godafoss
+</div>
+<br/><br/>
+
+<div>
+<img class="col three" src="{{ site.baseurl }}/img/bikes.jpg" alt="" title="luke">
+</div>
+<div class="col three caption">
+	the bikes
+</div>
+<br/><br/>
+
+<div>
+<img class="col three" src="{{ site.baseurl }}/img/icelandic_lake.jpg" alt="" title="lake">
 </div>
 <div class="col three caption">
 	Icelandic pond.
 </div>
+<br/><br/>
 
-<br/><br/><br/>
-
-
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/glacier.jpg" alt="" title="glacier"/>
+</div>
+<div class="col three caption">
+	luke is shooting the moving glacier
+</div>
+<br/><br/>
