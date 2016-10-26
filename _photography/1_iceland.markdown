@@ -8,6 +8,14 @@ img: /img/road2.jpg
 Some unchronological pictures from the incredible bike trip around Iceland with my friend Luke last September. 
 
 <div>
+<img class="col three" src="{{ site.baseurl }}/img/bikes.jpg" alt="" title="luke">
+</div>
+<div class="col three caption">
+	the bikes
+</div>
+<br/><br/>
+
+<div>
 <center><img src="{{ site.baseurl }}/img/mountains_luke.jpg" alt="" title="luke" style="width: 97%;" align="middle">
 </center>
 </div>
@@ -33,19 +41,30 @@ Some unchronological pictures from the incredible bike trip around Iceland with 
 </div>
 <br/><br/>
 
+
 <div>
-<img class="col three" src="{{ site.baseurl }}/img/bikes.jpg" alt="" title="luke">
+<img class="col one" src="{{ site.baseurl }}/img/sheep.jpg" alt="" title="sheep">
+<img class="col one" src="{{ site.baseurl }}/img/bird_snaejfelsness.jpg" alt="" title="bird">
+<img class="col one" src="{{ site.baseurl }}/img/humpback.jpg" alt="" title="humpback">
 </div>
 <div class="col three caption">
-	the bikes
+	impressions 
 </div>
 <br/><br/>
 
 <div>
-<img class="col three" src="{{ site.baseurl }}/img/icelandic_lake.jpg" alt="" title="lake">
+<img class="col three" src="{{ site.baseurl }}/img/camp.jpg" alt="" title="camp">
 </div>
 <div class="col three caption">
-	Icelandic pond.
+	camp in the north
+</div>
+<br/><br/>
+
+<div>
+<img class="col three" src="{{ site.baseurl }}/img/detifoss.jpg" alt="" title="dettifoss">
+</div>
+<div class="col three caption">
+	dettifoss, the most powerful waterfall in europe
 </div>
 <br/><br/>
 
