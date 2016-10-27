@@ -2,7 +2,7 @@
 layout: post
 title: Exploring USA
 description: california and further
-img: /img/cali/bigsur2.jpg
+img: /img/cali/bigsur_front.jpg
 ---
     
 Impressions from a Westcoast road trip with Emily.
