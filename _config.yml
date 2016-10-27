@@ -27,6 +27,7 @@ collections:
 # Gems
 gems: [jekyll-paginate]
 
- 
+ # Google services
+google_analytics: UA-86436426-1
 
 
