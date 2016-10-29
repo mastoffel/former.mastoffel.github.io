@@ -14,7 +14,6 @@ paginate_path: "/mastoffel.github.io/page:num/"
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 
 collections:
  photography:

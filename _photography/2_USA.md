@@ -43,7 +43,7 @@ Impressions from a Westcoast road trip with Emily.
 <img class="col three" src="{{ site.baseurl }}/img/cali/badwater1.jpg" alt="" title="badwater1">
 </div>
 <div class="col three caption">
-	Badwater Basin, the hottest place on earth?
+	Badwater Basin, the lowest elevation in North America, 86 m below sea level.
 </div>
 <br/><br/>
 
