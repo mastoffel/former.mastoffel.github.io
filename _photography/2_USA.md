@@ -16,7 +16,7 @@ Impressions from a Westcoast road trip with Emily.
 <br/><br/>
 
 <div>
-<img class="col three" src="{{ site.baseurl }}/img/cali/bigsur2.jpg" alt="" title="bigsur">
+<img class="col three" src="{{ site.baseurl }}/img/cali/bigsur.jpg" alt="" title="bigsur">
 </div>
 <div class="col three caption">
 	the Big Sur
