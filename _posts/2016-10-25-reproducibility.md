@@ -10,13 +10,5 @@ description: a short intro
 The main idea of the post is to share some things about reproducibility which I´ve learned over
 the past couple of years. 
 
-## R  
 
-
-
-
-```r
-library(inbreedR)
-data(mouse_msats)
-```
 

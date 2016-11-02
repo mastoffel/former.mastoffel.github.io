@@ -5,7 +5,7 @@ description: california and further
 img: /img/cali/bigsur_front.jpg
 ---
     
-Impressions from a Westcoast road trip with Emily.
+Impressions from a fantastic Westcoast trip with Emily.
 
 <div>
 <img class="col three" src="{{ site.baseurl }}/img/cali/sanfran.jpg" alt="" title="sanfran">
