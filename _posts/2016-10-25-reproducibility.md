@@ -23,7 +23,12 @@ as in traditional ways of publishing code). You can check out how this looks lik
 recent paper's. We are all using the faboulous [RMarkdown](http://rmarkdown.rstudio.com/) for this. 
 
 **Advantages of creating RMarkdown files**
-- Most of all: Research integrity. You allow others to excactly see and reproduce what you did,
-to comment, critisize and 
+
+*  *Research integrity* - You allow others to excactly see and reproduce what you did,
+to comment and to critisize. Much more so then just writing a paragraph in the Methods section of a paper.
+* *Code usability* - Clean, commented code allows to build on it. When you come back to your project years later, 
+you will still understand what excactly you did. And not just you, everyone can build on your 
+work and use your code. I´m sure this will facilitate collaborations, citations and standardization
+across research projects.
 
 
