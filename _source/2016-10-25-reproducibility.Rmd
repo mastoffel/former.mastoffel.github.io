@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Now and then one observes waves of indignation about what has been termed the [reproducibility crisis](https://en.wikipedia.org/wiki/Replication_crisis). The causes are many and definitely not limited to the field of [psychology](http://science.sciencemag.org/content/349/6251/aac4716), where a recent large scale
 attempt to replicate results revealed the flaws of the modern scientific process. 
 
-What I want to focus on in this post is the replicability of the statistical analysis. These thought's
+What I want to focus on in this post is the replicability of the statistical analysis. These thoughts
 aren't new, the guys at Johns Hopkins University even made a whole [course](https://www.coursera.org/learn/reproducible-research) on it, however I find that these ideas haven't yet made their way into the scientific collective awareness.
 
 **So when *is* a statistical analysis reproducible?** Well, when someone else gets the raw data and your
@@ -37,10 +37,10 @@ will help finding bugs and reinforce the trust in what you did.
 
 **How to start**
 
-1. Don't use Point&Klick programs, but code in R or any other language. This is probably the hardest part. All steps of the analysis have to be written as code to be properly included in the RMarkdown file. As R is developing rapidly, there will be a package for everything you want to do, especially if it's some kind of established analysis. However, having some parts of the analysis in the RMarkdown file is much better then not showing any code. 
+1. Don't use Point&Click programs, but code in R or any other language. This is probably the hardest part. All steps of the analysis have to be written as code to be properly included in the RMarkdown file. As R is developing rapidly, there will be a package for everything you want to do, especially if it's some kind of established analysis. However, having some parts of the analysis in the RMarkdown file is much better then not showing any code. 
 2. Download the newest version of [RStudio](https://www.rstudio.com/)  
-3. Open RStudio and klick on the little symbol in the left upper corner and open up a new RMarkdown file, or even cooler the new RNotebook (Which is essentially an RMarkdown file with some more interactivity)
-4. Look up how to write in [RMarkdown](http://rmarkdown.rstudio.com/lesson-1.html), it is really easy. Use ctrl+alt+i to open up a new code chunk and place your code in there. Klick on the little `Knit` button at the top to compile your document as html, pdf or word document. 
+3. Open RStudio and click on the little symbol in the left upper corner and open up a new RMarkdown file, or even cooler the new RNotebook (Which is essentially an RMarkdown file with some more interactivity)
+4. Look up how to write in [RMarkdown](http://rmarkdown.rstudio.com/lesson-1.html), it is really easy. Use ctrl+alt+i to open up a new code chunk and place your code in there. Click on the little `Knit` button at the top to compile your document as html, pdf or word document. 
 5. Once you have an idea and some confidence in RMarkdown, you can not just produce reproducible, code heavy documents to accompany papers, but you can create presentations, interactive documents, websites and much more. Have a look at the RMarkdown [gallery](http://rmarkdown.rstudio.com/gallery.html) to see what's possible.
 
 
