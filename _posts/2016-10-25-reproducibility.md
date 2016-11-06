@@ -2,6 +2,7 @@
 title: "Using RMarkdown for reproducible research"
 layout: post
 date:   2015-10-25 
+comments: true
 description: some thoughts and how to start
 ---
 
@@ -47,5 +48,7 @@ will help finding bugs and reinforce the trust in what you did.
 
 Science gets more data intense and statistical analyses get more complicated. New methods and ideas are developed all the time, and just reading about them in a methods section makes them unusable. In addition, many Methods sections in papers allow for just a few paragraphs and outsourcing them to the supplementary material makes them even less accesible, controlled, and read. I think RMarkdown is a great tool to not just reinforce integrity, but to actually replace the traditional statistical methods section.
 
-
+<br/><br/>
+<br/><br/>
+{% include disqus.html %}
 
