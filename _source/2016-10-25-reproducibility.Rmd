@@ -1,8 +1,7 @@
 ---
-title: "Using RMarkdown for reproducible research"
+title: "using RMarkdown for reproducible research"
 layout: post
-date:   2015-10-25 
-comments: true
+date:   2016-10-25 
 description: some thoughts and how to start
 ---
 
