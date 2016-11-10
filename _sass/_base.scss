@@ -35,6 +35,7 @@ $purple: #B509AC;
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     #666;
+$white: #FFFFFF;
 
 /* Set theme color *************************/
 $theme-color:   $blue;
@@ -170,7 +171,7 @@ pre,
 code {
     font-size: 15px;
     border-radius: 3px;
-    background-color: $grey-color-light;
+    background-color: $white;
 }
 
 code {

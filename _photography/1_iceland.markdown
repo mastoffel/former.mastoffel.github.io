@@ -25,8 +25,8 @@ Some unchronological pictures from the incredible bike trip around Iceland with 
 <br/><br/>
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/iceland/husavik_luke.jpg" alt="" title="iclandic_town"/>
-	<img class="col one" src="{{ site.baseurl }}/img/iceland/Djupivogur.jpg" alt="" title="luke_husavik"/>
+	<img class="col fifty" src="{{ site.baseurl }}/img/iceland/husavik_luke.jpg" alt="" title="iclandic_town"/>
+	<img class="col fifty" src="{{ site.baseurl }}/img/iceland/Djupivogur.jpg" alt="" title="luke_husavik"/>
 </div>
 <div class="col three caption">
 	Luke preparing for the whale cruise and Djupovogur, a town in the westfjords.
