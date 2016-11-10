@@ -17,14 +17,14 @@ data(iris)
 str(iris)
 ```
 
-        ```
-        ## 'data.frame':	150 obs. of  5 variables:
-        ##  $ Sepal.Length: num  5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ...
-        ##  $ Sepal.Width : num  3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 ...
-        ##  $ Petal.Length: num  1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ...
-        ##  $ Petal.Width : num  0.2 0.2 0.2 0.2 0.2 0.4 0.3 0.2 0.2 0.1 ...
-        ##  $ Species     : Factor w/ 3 levels "setosa","versicolor",..: 1 1 1 1 1 1 1 1 1 1 ...
-        ```
+```
+## 'data.frame':	150 obs. of  5 variables:
+##  $ Sepal.Length: num  5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ...
+##  $ Sepal.Width : num  3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 ...
+##  $ Petal.Length: num  1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ...
+##  $ Petal.Width : num  0.2 0.2 0.2 0.2 0.2 0.4 0.3 0.2 0.2 0.1 ...
+##  $ Species     : Factor w/ 3 levels "setosa","versicolor",..: 1 1 1 1 1 1 1 1 1 1 ...
+```
 
 Before we start plotting, we load some package which I find make life quite easy to start with
 in ggplot. Most people have a hard time customizing the `theme` of a ggplot. The `theme` essentially configures the layout, i.e. things like axes and labels. An excellent package to make this easy and
@@ -84,10 +84,45 @@ around the regression line in the same color that we used for the points.
 p1 + 
     geom_point(aes(color = Species)) +
     geom_smooth(method = "lm", level = 0.95, size = 0.3, 
-                alpha = 0.5, aes(fill= Species)) +
-    theme(legend.position = "top")
+                alpha = 0.5, aes(fill= Species)) 
 ```
 
 <img src="/figure/source/2016-11-6-visualization/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
+Now we can do some finetuning. First, we change the axis labels and give a title to the plot
 
+
+```r
+p1 + 
+    geom_point(aes(color = Species)) +
+    geom_smooth(method = "lm", level = 0.95, size = 0.3, 
+                alpha = 0.5, aes(fill= Species)) +
+    xlab("Sepal length") +
+    ylab("Petal length") 
+```
+
+<img src="/figure/source/2016-11-6-visualization/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
+
+
+Now we might want to give everything a bit more breathing space. And I'm also not sure wheter I like the gridlines. This means we change out `ggthemr` template form the beginning. We use the clean layout and a higher spacing.
+
+
+```r
+ggthemr(palette = "fresh", layout = "clean", spacing = 3.5,
+    line_weight = 0.7, text_size = 18, type = "outer")
+```
+
+This is how it looks now.
+
+
+```r
+p1 + 
+    geom_point(aes(color = Species)) +
+    geom_smooth(method = "lm", level = 0.95, size = 0.3, 
+                alpha = 0.5, aes(fill= Species)) +
+    xlab("Sepal length") +
+    ylab("Petal length") +
+    legend_top()
+```
+
+<img src="/figure/source/2016-11-6-visualization/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />
