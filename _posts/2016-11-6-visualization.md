@@ -129,3 +129,7 @@ p1 +
 
 
 That's it! 
+
+<br/><br/>
+<br/><br/>
+{% include disqus.html %}
