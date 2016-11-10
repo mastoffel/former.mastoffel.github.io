@@ -112,7 +112,7 @@ ggthemr(palette = "fresh", layout = "clean", spacing = 3.5,
     line_weight = 0.7, text_size = 18, type = "outer")
 ```
 
-This is how it looks now.
+And this is how the graph looks now.
 
 
 ```r
@@ -122,7 +122,10 @@ p1 +
                 alpha = 0.5, aes(fill= Species)) +
     xlab("Sepal length") +
     ylab("Petal length") +
-    legend_top()
+    legend_bottom()
 ```
 
 <img src="/figure/source/2016-11-6-visualization/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />
+
+
+That's it! 
