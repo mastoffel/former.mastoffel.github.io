@@ -43,12 +43,11 @@ Some unchronological pictures from the incredible bike trip around Iceland with 
 
 
 <div>
-<img class="col one" src="{{ site.baseurl }}/img/iceland/sheep.jpg" alt="" title="sheep">
-<img class="col one" src="{{ site.baseurl }}/img/iceland/bird_snaejfelsness.jpg" alt="" title="bird">
-<img class="col one" src="{{ site.baseurl }}/img/iceland/humpback.jpg" alt="" title="humpback">
+<img class="col fifty" src="{{ site.baseurl }}/img/iceland/sheep.jpg" alt="" title="sheep">
+<img class="col fifty" src="{{ site.baseurl }}/img/iceland/humpback.jpg" alt="" title="humpback">
 </div>
 <div class="col three caption">
-	impressions 
+	Iclandic sheep and Humpback Whale
 </div>
 <br/><br/>
 
