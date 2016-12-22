@@ -3,6 +3,7 @@ title: "the uncarved block"
 layout: post
 date:   2016-10-24
 description: what it is
+category: philosophy
 ---
 
 ### P'u or the Uncarved Block

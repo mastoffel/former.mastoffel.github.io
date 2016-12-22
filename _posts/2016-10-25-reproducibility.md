@@ -3,6 +3,7 @@ title: "using RMarkdown for reproducible research"
 layout: post
 date:   2016-10-25 
 description: some thoughts and how to start
+category: coding
 ---
 
 
