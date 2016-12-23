@@ -1,13 +1,59 @@
 ---
-title: "the ACE expedition"
+title: "crossing the Atlantic on a russian icebreaker"
 layout: post
 date:   2016-12-22
-description: crossing the Atlantic
+description: leg 0 of the The Antarctic Circumnavigation Expedition
 category: science
 ---
 
 ### The Antarctic Circumnavigation Expedition
+<br>
+Roughly one year ago, Frederic Paulsen, a philantropist and businessman came up with the idea to initiate the first scientific circumnavigation of Antarctica including all its islands. The incredible journey which followed this initial idea within just 12 months is barely believable. In Switzerland, the Polar Institute has been founded and the Akademik Tryoshnikov, a Russian icebreaker, has been hired including a 60 man and women-strong crew. International science teams from a variety of disciplines applied for projects, of which the best 22 have been selected for the expedition. The overarching goal is to advance our understanding of the ecosystems of Antarctica and the Southern Ocean, which are believed to play a fundamental role in global climate change.
 
-![noborders](/img/noborders.jpg)
 
-*coming soon*
+```{r, out.width = "400px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("img/ace/ace_map.png")
+```
+*Figure 1: The ACE journey around Antarctica*
+<br>
+
+### The ACE Maritime University
+<br>
+For the first part of the expedition or leg0, the Akademik Tryoshnikov sailed from Bremerhaven in Germany to Cape Town in South Africa. Inspired by the Polarstern, the ACE team decided to organise a Maritime University and bring together 49 postgraduate students from over 10 different countries and numerous scientific backgrounds. For me, the true value of the ACE Maritime University went far beyond broadening my knowledge about the oceans and gaining experience at sea. It was about the inspiration I gained from the students and scientists on board, about the perspectives on the problems our earth faces, and the awareness of my role as a scientist in our society. The cruise connected us not just as scientist, but as friends, and this us worth a lot and in a world that seems to drift apart.
+
+Here are some impressions from the expedition.
+<br>
+
+*Our route through the Atlantic*
+```{r, out.width = "600px", echo = FALSE, fig.align='left'}
+knitr::include_graphics("img/ace/route.jpg")
+``` 
+
+<br>
+
+*The Akademik Tryoshnikov*
+```{r, out.width = "600px", echo = FALSE, fig.align='left'}
+knitr::include_graphics("img/ace/boat3.jpg")
+```
+
+<br>
+
+*Crossing borders*
+```{r, out.width = "600px", echo = FALSE, fig.align='left'}
+knitr::include_graphics("img/ace/noborders.jpg")
+```
+
+<br>
+
+*A CTD: Measuring conductivity and temperature in up to 1000 meters depth and taking watersamples*
+```{r, out.width = "600px", echo = FALSE, fig.align='left'}
+knitr::include_graphics("img/ace/ctd.jpg")
+```
+
+*Arrival in Cape Town*
+```{r, out.width = "600px", echo = FALSE, fig.align='left'}
+knitr::include_graphics("img/ace/arrival.jpg")
+```
+
+
+**To be continued**
