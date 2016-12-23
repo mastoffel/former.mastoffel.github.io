@@ -7,3 +7,7 @@ category: science
 ---
 
 ### The Antarctic Circumnavigation Expedition
+
+![noborders](/img/noborders.jpg)
+
+*coming soon*
