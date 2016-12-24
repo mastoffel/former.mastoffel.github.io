@@ -8,52 +8,115 @@ category: science
 
 ### The Antarctic Circumnavigation Expedition
 <br>
-Roughly one year ago, Frederic Paulsen, a philantropist and businessman came up with the idea to initiate the first scientific circumnavigation of Antarctica including all its islands. The incredible journey which followed this initial idea within just 12 months is barely believable. In Switzerland, the Polar Institute has been founded and the Akademik Tryoshnikov, a Russian icebreaker, has been hired including a 60 man and women-strong crew. International science teams from a variety of disciplines applied for projects, of which the best 22 have been selected for the expedition. The overarching goal is to advance our understanding of the ecosystems of Antarctica and the Southern Ocean, which are believed to play a fundamental role in global climate change.
-
+Roughly one year ago, Frederic Paulsen, a philantropist and businessman came up with the idea to initiate the first scientific circumnavigation of Antarctica including stops at all the subantarctic islands. The incredible journey following this initial idea within just 12 months is barely believable. In Switzerland, the Polar Institute has been founded and the Akademik Tryoshnikov, a Russian icebreaker, has been hired including a 60 man and women-strong crew. International science teams from a variety of disciplines applied for projects, of which the best 22 have been selected. The overarching goal of the expedition is to advance our understanding of the ecosystems of Antarctica and the Southern Ocean, which are believed to play a fundamental role in global climate change.
+You can follow the expedition on the official [blog](http://spi-ace-expedition.ch/).
 
 ```{r, out.width = "400px", echo = FALSE, fig.align='center'}
 knitr::include_graphics("img/ace/ace_map.png")
 ```
 *Figure 1: The ACE journey around Antarctica*
+
+<br>
 <br>
 
-### The ACE Maritime University
-<br>
-For the first part of the expedition or leg0, the Akademik Tryoshnikov sailed from Bremerhaven in Germany to Cape Town in South Africa. Inspired by the Polarstern, the ACE team decided to organise a Maritime University and bring together 49 postgraduate students from over 10 different countries and numerous scientific backgrounds. For me, the true value of the ACE Maritime University went far beyond broadening my knowledge about the oceans and gaining experience at sea. It was about the inspiration I gained from the students and scientists on board, about the perspectives on the problems our earth faces, and the awareness of my role as a scientist in our society. The cruise connected us not just as scientist, but as friends, and this us worth a lot and in a world that seems to drift apart.
 
-Here are some impressions from the expedition.
+### Crossing the Atlantic with the ACE Maritime University
+<br>
+For the first part of the expedition or leg 0, the Akademik Tryoshnikov sailed from Bremerhaven in Germany to Cape Town in South Africa. Inspired by a program on the german Polarstern, the ACE team decided to organise a Maritime University and bring together 49 postgraduate students from over 10 different countries and numerous scientific backgrounds. For me, the true value of the ACE Maritime University went far beyond broadening my knowledge about the oceans and gaining experience at sea. It was about the inspiration I gained from the students and scientists on board, about the perspectives on the problems our earth faces, and the awareness of my role as a scientist in our society. The cruise connected us not just as scientist, but as friends, and this us worth a lot and in a world that seems to drift apart. 
+
 <br>
 
-*Our route through the Atlantic*
-```{r, out.width = "600px", echo = FALSE, fig.align='left'}
-knitr::include_graphics("img/ace/route.jpg")
+Our route through the Atlantic
+
+```{r, out.width = "300px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("img/ace/map_enhanced.png")
 ``` 
 
 <br>
 
-*The Akademik Tryoshnikov*
-```{r, out.width = "600px", echo = FALSE, fig.align='left'}
-knitr::include_graphics("img/ace/boat3.jpg")
-```
+<figure>
+    <img align="middle" src="/img/ace/boat3.jpg" width="100%">
+    <figcaption><center><font size="2">The Akademik Tryoshnikov.</font></center></figcaption>
+</figure>
 
 <br>
 
-*Crossing borders*
-```{r, out.width = "600px", echo = FALSE, fig.align='left'}
-knitr::include_graphics("img/ace/noborders.jpg")
-```
+Crossing borders - the idea behind the expedition. All research teams are international collaborations and the cruise combines many scientific disciplines, from oceanography to biology.  
+
+<div class="img_row">
+	<img class="col fifty" src="{{ site.baseurl }}/img/ace/noborders.jpg" alt="" title="iclandic_town"/>
+	<img class="col fifty" src="{{ site.baseurl }}/img/ace/long_exp_boat.jpg" alt="" title="free_time"/>
+</div>
 
 <br>
 
-*A CTD: Measuring conductivity and temperature in up to 1000 meters depth and taking watersamples*
-```{r, out.width = "600px", echo = FALSE, fig.align='left'}
-knitr::include_graphics("img/ace/ctd.jpg")
-```
+A CTD for measuring salinity, temperature and flourescence in up to 1000 meters depth and to take watersamples for different projects. 
 
-*Arrival in Cape Town*
-```{r, out.width = "600px", echo = FALSE, fig.align='left'}
+<figure>
+    <img align="middle" src="/img/ace/ctd2.jpg" width="100%">
+    <figcaption><center><font size="2">A CTD - Conductivity, Temperature, Depth</font></center></figcaption>
+</figure>
+
+<br>
+
+One of the two helicopters on board. These are the helicopter used for the [South Georgia rat eradication program](http://www.sght.org/sght-habitat-restoration-project/), a large scale project to preserve endangered wildlife on South Georgia.
+
+<figure>
+    <img align="middle" src="/img/ace/helicopter.jpg" width="100%">
+    <figcaption><center><font size="2">One of two helicopters on board</font></center></figcaption>
+</figure>
+
+
+<br>
+
+Whenever we had some time, we watched out for wildlife, and occasionally we were lucky. Pilot whales, several species of dolphin and flying fish crossed out way, amongst others.    
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/ace/dolphins.jpg" alt="" title="dolphins"/>
+</div>
+<div class="col three caption">
+Rough-toothed dolphins
+</div>
+
+  
+<br>
+The calm water of the tropics provided an excellent opportunity to capture the flying fish.  
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/ace/flying_fish.jpg" alt="" title="flying_fish"/>
+</div>
+
+<br>
+Arguably one of the most important projects on the expedition investigates the influence of plastics floating in the ocean on the food web. 
+<figure>
+    <img align="middle" src="/img/ace/plastics.jpg" width="100%">
+    <figcaption><center><font size="2">A surface net to sample plastics from the ocean.</font></center></figcaption>
+</figure>
+
+<br>
+The rare free time on board was spent well..
+
+<div class="img_row">
+	<img class="col fifty" src="{{ site.baseurl }}/img/ace/james.jpg" alt="" title="iclandic_town"/>
+	<img class="col fifty" src="{{ site.baseurl }}/img/ace/pike.jpg" alt="" title="free_time"/>
+</div>
+
+<br>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/ace/social.jpg" alt="" title="social"/>
+</div>
+
+Also by enjoying the sunsets as often as possible.
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/ace/sunrise.jpg" alt="" title="social"/>
+</div>
+
+<br>
+
+Arrival in Cape Town
+
+```{r, out.width = "100%", echo = FALSE, fig.align='center'}
 knitr::include_graphics("img/ace/arrival.jpg")
 ```
-
-
-**To be continued**
