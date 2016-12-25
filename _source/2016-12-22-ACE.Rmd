@@ -8,7 +8,7 @@ category: science
 
 ### The Antarctic Circumnavigation Expedition
 <br>
-Roughly one year ago, Frederic Paulsen, a philantropist and businessman came up with the idea to initiate the first scientific circumnavigation of Antarctica including stops at all the subantarctic islands. The incredible journey following this initial idea within just 12 months is barely believable. In Switzerland, the Polar Institute has been founded and the Akademik Tryoshnikov, a Russian icebreaker, has been hired including a 60 man and women-strong crew. International science teams from a variety of disciplines applied for projects, of which the best 22 have been selected. The overarching goal of the expedition is to advance our understanding of the ecosystems of Antarctica and the Southern Ocean, which are believed to play a fundamental role in global climate change.
+Roughly one year ago, Frederic Paulsen, a philantropist and businessman came up with the idea to initiate the first scientific circumnavigation of Antarctica including stops at all the subantarctic islands. The incredible journey following this initial idea within just 12 months is barely believable. In Switzerland, the Polar Institute has been founded and the Akademik Tryoshnikov, a Russian icebreaker, has been hired including a 60 man and women-strong crew. International science teams from a variety of disciplines applied for projects, of which the best 22 have been selected. The overarching goal of the expedition is to advance our understanding of the ecosystems of Antarctica and the Southern Ocean, which are believed to play a fundamental role in global climate change and are among the last untouched ecosystems on earth.
 You can follow the expedition on the official [blog](http://spi-ace-expedition.ch/).
 
 ```{r, out.width = "400px", echo = FALSE, fig.align='center'}
@@ -22,17 +22,19 @@ knitr::include_graphics("img/ace/ace_map.png")
 
 ### Crossing the Atlantic with the ACE Maritime University
 <br>
-For the first part of the expedition or leg 0, the Akademik Tryoshnikov sailed from Bremerhaven in Germany to Cape Town in South Africa. Inspired by a program on the german Polarstern, the ACE team decided to organise a Maritime University and bring together 49 postgraduate students from over 10 different countries and numerous scientific backgrounds. For me, the true value of the ACE Maritime University went far beyond broadening my knowledge about the oceans and gaining experience at sea. It was about the inspiration I gained from the students and scientists on board, about the perspectives on the problems our earth faces, and the awareness of my role as a scientist in our society. The cruise connected us not just as scientist, but as friends, and this us worth a lot and in a world that seems to drift apart. 
+For the first part of the expedition or leg 0, the Akademik Tryoshnikov sailed from Bremerhaven in Germany to Cape Town in South Africa. Inspired by a program on the german *Polarstern*, the ACE team decided to organise a Maritime University and bring together 49 postgraduate students from over 10 different countries and numerous scientific backgrounds. For me, the true value of the ACE Maritime University went far beyond broadening my knowledge about the oceans and gaining experience at sea. It was about the inspiration I gained from the students and scientists on board, about the perspectives on the problems our earth faces, and the awareness of my role as a scientist in our society. The cruise connected us not just as scientist, but as friends, and this is worth a lot in a world that seems to drift apart. 
 
 <br>
 
-Our route through the Atlantic
+Our route through the Atlantic.
 
 ```{r, out.width = "300px", echo = FALSE, fig.align='center'}
 knitr::include_graphics("img/ace/map_enhanced.png")
 ``` 
 
 <br>
+
+Our vessel, the Akademik Tryoshnikov, is the flagship of the russian polar research fleet. It's 133 meters long and up to 16 knots (30km/h) fast. 
 
 <figure>
     <img align="middle" src="/img/ace/boat3.jpg" width="100%">
@@ -41,12 +43,11 @@ knitr::include_graphics("img/ace/map_enhanced.png")
 
 <br>
 
-Crossing borders - the idea behind the expedition. All research teams are international collaborations and the cruise combines many scientific disciplines, from oceanography to biology.  
+Crossing borders - the idea behind the expedition. All research teams are international collaborations and the cruise combines many scientific disciplines, from oceanography to atmospheric sciences to biology.  
 
-<div class="img_row">
-	<img class="col fifty" src="{{ site.baseurl }}/img/ace/noborders.jpg" alt="" title="iclandic_town"/>
-	<img class="col fifty" src="{{ site.baseurl }}/img/ace/long_exp_boat.jpg" alt="" title="free_time"/>
-</div>
+<figure>
+    <img align="middle" src="/img/ace/noborders.jpg" width="100%">
+</figure>
 
 <br>
 
@@ -54,7 +55,7 @@ A CTD for measuring salinity, temperature and flourescence in up to 1000 meters 
 
 <figure>
     <img align="middle" src="/img/ace/ctd2.jpg" width="100%">
-    <figcaption><center><font size="2">A CTD - Conductivity, Temperature, Depth</font></center></figcaption>
+    <figcaption><center><font size="2">	A CTD - conductivity, temperature, depth.</font></center></figcaption>
 </figure>
 
 <br>
@@ -71,23 +72,25 @@ One of the two helicopters on board. These are the helicopter used for the [Sout
 
 Whenever we had some time, we watched out for wildlife, and occasionally we were lucky. Pilot whales, several species of dolphin and flying fish crossed out way, amongst others.    
 
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/ace/dolphins.jpg" alt="" title="dolphins"/>
-</div>
-<div class="col three caption">
-Rough-toothed dolphins
-</div>
+<figure>
+    <img align="middle" src="/img/ace/dolphins.jpg" width="100%">
+    <figcaption><center><font size="2">Rough-toothed dolphins</font></center></figcaption>
+</figure>
 
   
 <br>
 The calm water of the tropics provided an excellent opportunity to capture the flying fish.  
 
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/ace/flying_fish.jpg" alt="" title="flying_fish"/>
-</div>
+<figure>
+    <img align="middle" src="/img/ace/flying_fish.jpg" width="100%">
+    <figcaption><center><font size="2">Flying fish</font></center></figcaption>
+</figure>
+
 
 <br>
-Arguably one of the most important projects on the expedition investigates the influence of plastics floating in the ocean on the food web. 
+One of the ideas which had the biggest impact on me was about the consequences of [plastic pollution](http://nationalgeographic.org/encyclopedia/great-pacific-garbage-patch/) on our oceans. Tons of plastics are dumped into our oceans every day and are not biodegradable. What effectively happens is that larger pieces of plastics get smaller and smaller over time and become so called micro-, and even smaller, nanoplastics. Fish and birds feed on plastics and it becomes a part of ecosystems. It is already clear that plastics have very deadly consequences on [seabirds](http://news.nationalgeographic.com/2015/09/15092-plastic-seabirds-albatross-australia/) and [other animals](http://www.onegreenplanet.org/animalsandnature/marine-animals-are-dying-because-of-our-plastic-trash/). The long term impact of plastics in the human food chain has not yet been investigated sufficiently. My personal insight from all this is to reduce my own plastic use as far as possible. A really good and easy list of things to do can be found [here](http://www.treehugger.com/green-home/11-easy-ways-reduce-your-plastic-waste-today.html).  
+One of the arguably most important [projects](http://spi-ace-expedition.ch/selected-projects/the-impact-of-microplastic-pollution-on-the-food-web/) on the ACE expedition investigates the influence of plastic pollution in the Atlantic and Southern Ocean on the food web. 
+
 <figure>
     <img align="middle" src="/img/ace/plastics.jpg" width="100%">
     <figcaption><center><font size="2">A surface net to sample plastics from the ocean.</font></center></figcaption>
@@ -95,7 +98,6 @@ Arguably one of the most important projects on the expedition investigates the i
 
 <br>
 The rare free time on board was spent well..
-
 <div class="img_row">
 	<img class="col fifty" src="{{ site.baseurl }}/img/ace/james.jpg" alt="" title="iclandic_town"/>
 	<img class="col fifty" src="{{ site.baseurl }}/img/ace/pike.jpg" alt="" title="free_time"/>
@@ -107,6 +109,7 @@ The rare free time on board was spent well..
 	<img class="col three" src="{{ site.baseurl }}/img/ace/social.jpg" alt="" title="social"/>
 </div>
 
+<br>
 Also by enjoying the sunsets as often as possible.
 
 <div class="img_row">
@@ -115,7 +118,7 @@ Also by enjoying the sunsets as often as possible.
 
 <br>
 
-Arrival in Cape Town
+After four intense weeks at sea, we were happy to step foot on land again. However, for many scientists on the expedition the journey just begins here. May you have fair winds and following seas!
 
 ```{r, out.width = "100%", echo = FALSE, fig.align='center'}
 knitr::include_graphics("img/ace/arrival.jpg")

@@ -2,10 +2,7 @@
 title: "a publication-ready scatterplot with ggplot2 "
 layout: post
 description: the scatterplot
-category: coding
 ---
-
-*note: ggthemr breaks with the new ggplot version, I'll update the blog post soon*
 
 We recently had a discussion in the departement about visualisation for science. The main concern about ggplot2 seemed to be the steep learning curve. Other programs might produce the required graphs quicker, without coding, even interactive. However, I think with a little bit of training and keeping up to date
 with the new developments in ggplot, it will be the last visualization software you have to learn. Moreover, it will give you freedom of the mind by making it possible to create whatever graphs you want and even get inspired by the newest developments in visualising data. 
