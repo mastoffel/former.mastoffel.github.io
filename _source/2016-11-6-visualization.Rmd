@@ -2,6 +2,7 @@
 title: "a publication-ready scatterplot with ggplot2 "
 layout: post
 description: the scatterplot
+category: coding
 ---
 
 We recently had a discussion in the departement about visualisation for science. The main concern about ggplot2 seemed to be the steep learning curve. Other programs might produce the required graphs quicker, without coding, even interactive. However, I think with a little bit of training and keeping up to date
