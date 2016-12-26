@@ -1,7 +1,7 @@
 ---
 layout: post
-title: cycling iceland
-description: some pictures of iceland
+title: circumventing iceland by bike
+description: impressions
 img: /img/iceland/road2.jpg
 ---
 

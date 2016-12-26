@@ -2,7 +2,7 @@
 layout: post
 title: Central Greece
 description: fieldwork with bushcrickets
-img: /img/greece/mountains.jpeg
+img: /img/greece/tower.jpeg
 ---
 
 The beauty of the mountains of central greece is reflected in the unspoiled nature and the friendliness of the people. For the second time now, I joined the Evolutionary Biology group of the University of Bielefeld to do fieldwork on an endemic bushcricket, *Poecilimon veluchianus*.
