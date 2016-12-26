@@ -6,12 +6,19 @@ permalink: /about/
 
 <img class="col one right" src="/img/martin.jpg">
 
-How a good friend of mine always told me: It's not important where you come from, but where you go to. This is why I use this blog as a reflection of my current ideas, opinions and life. Whoever is interested in the science I´m doing can visit my <a href="https://thehoffmanlab.com/group/martin-stoffel/" target="blank">lab's</a> website. If you want to have a look at the coding part of my projects, just visit my GitHub profile by clicking on the little cat at the bottom. I'm happy get contacted for new science collaborations, nature expeditions, data analysis or visualization projects or whatever else comes to someones mind when reading my blog (click on the letter on the bottom to write me a mail). 
+*“Two things fill the mind with ever new and increasing admiration and awe, the more often and steadily we reflect upon them: the starry heavens above me and the moral law within me."* -Kant
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+This is one of the quotes which I discussed a lot with a good friend of mine during my studies. I feel it now has become a little piece of wisdom which I consider to be a key part of my life as a young scientist. For me, the quote is about accepting and respecting that there are things you cannot grasp and about keeping a truly open and interested mindset. Even more important, it emphasized the need to constantly reflect upon our own moral. 
+
+Although coming from a background in Psychology and Neurosciences, I'm doing a PhD somewhere in between ecology, genetics, programming and statistics. For details about my work and publications please visit my my <a href="https://thehoffmanlab.com/group/martin-stoffel/" target="blank">lab's</a> website. Feel free to contact my per mail (see little symbols at the bottom) if you have any questions or ideas for collaborations in science, adventures, R programming and data analysis, photography or whatever comes to your mind!
 
 
-<br/>
-<br/>
-<br/>
 <br/>
 <hr/>
 <br/>
