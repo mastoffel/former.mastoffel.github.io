@@ -5,7 +5,7 @@ description: fieldwork with bushcrickets
 img: /img/greece/tower.jpeg
 ---
 
-The beauty of the mountains of central greece is reflected in the unspoiled nature and the friendliness of the people. For the second time now, I joined the Evolutionary Biology group of the University of Bielefeld to do fieldwork on an endemic bushcricket, *Poecilimon veluchianus*.
+The beauty of the mountains of central greece is reflected in the unspoiled nature and the friendliness of the people. For the second time now, I joined the Evolutionary Biology group of the University of Bielefeld to do fieldwork on an endemic bushcricket, *Poecilimon veluchianus*. Camera: Canon Rebel XSi / 450d.
 
 <div>
 <img class="col three" src="{{ site.baseurl }}/img/greece/cricket2.jpeg" alt="" title="cricket">

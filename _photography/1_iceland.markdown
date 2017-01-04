@@ -5,7 +5,7 @@ description: impressions
 img: /img/iceland/road2.jpg
 ---
 
-Some unchronological pictures from the incredible bike trip around Iceland with my friend Luke last September. 
+Some unchronological pictures from the incredible bike trip around Iceland with my friend Luke last September. Camera: Canon Rebel XSi / 450d.
 
 <div>
 <img class="col three" src="{{ site.baseurl }}/img/iceland/bikes.jpg" alt="" title="luke">

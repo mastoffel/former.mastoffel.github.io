@@ -5,7 +5,7 @@ description: some traveling after being on a boat
 img: /img/ace/coast2.jpg
 ---
 
-After being on a Russian Icebreaker as part of the [ACE Expedition](http://spi-ace-expedition.ch/) for a month, we really enjoyed the beauty of South Africa.
+After being on a Russian Icebreaker as part of the [ACE Expedition](http://spi-ace-expedition.ch/) for a month, we really enjoyed the beauty of South Africa. Camera: Canon 6d.
 
 <div>
 <img class="col three" src="{{ site.baseurl }}/img/ace/capetown2.jpg" alt="" title="">

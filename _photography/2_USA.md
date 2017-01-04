@@ -5,7 +5,7 @@ description: california and further
 img: /img/cali/bigsur_front.jpg
 ---
     
-After the Marine Mammal Biannual Conference in San Francisco, Emily and I packed our tents and explored some great places in California and around.
+After the Marine Mammal Biannual Conference in San Francisco, Emily and I packed our tents and explored some great places in California and around. Camera: Canon Rebel XSi / 450d.
 
 <div>
 <img class="col three" src="{{ site.baseurl }}/img/cali/sanfran.jpg" alt="" title="sanfran">

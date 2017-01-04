@@ -1,7 +1,10 @@
 ---
-title: "a publication-ready scatterplot with ggplot2 "
-layout: post
+title: 'a publication-ready scatterplot with ggplot2 '
 description: the scatterplot
+layout: post
+output:
+  html_document: default
+  pdf_document: default
 category: coding
 ---
 
@@ -30,6 +33,7 @@ ggplot. Most people have a hard time customizing the `theme` of a ggplot. The `t
 to have a common theme across all your plot is `ggthemr`. Check out the [ggthemr GitHub repo](https://github.com/cttobin/ggthemr) for a detailed manual.
 
 ```{r}
+# devtools::install_github('cttobin/ggthemr')
 library(ggplot2)
 library(ggthemr)
 ```
