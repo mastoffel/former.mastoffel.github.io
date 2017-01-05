@@ -73,16 +73,16 @@ function to map the point color according to the species. We do the same for the
 get regression lines per Species. However, here we use `aes(fill= Species)` to fill the confidence bands
 around the regression line in the same color that we used for the points.
 
-```{r, fig.width=10, fig.height=6, fig.align='center'}
+```{r, fig.width=7, fig.height=5, fig.align='center'}
 p1 + 
     geom_point(aes(color = Species)) +
     geom_smooth(method = "lm", level = 0.95, size = 0.3, 
                 alpha = 0.5, aes(fill= Species)) 
 ```
 
-Now we can do some finetuning. First, we change the axis labels and give a title to the plot
+Now we can do some finetuning. First, we change the axis labels.
 
-```{r, fig.width=10, fig.height=6, fig.align='center'}
+```{r, fig.width=7, fig.height=5, fig.align='center'}
 p1 + 
     geom_point(aes(color = Species)) +
     geom_smooth(method = "lm", level = 0.95, size = 0.3, 
@@ -94,21 +94,20 @@ p1 +
 
 We also might want to give all the labels a bit more breathing space. And I'm not sure whether I like the gridlines. This means we change the `ggthemr` template form the beginning. Instead, we use the clean layout and a larger spacing.
 
-```{r, fig.width=10, fig.height=6, fig.align='center'}
+```{r, fig.width=7, fig.height=5, fig.align='center'}
 ggthemr(palette = "fresh", layout = "clean", spacing = 3.5,
     line_weight = 0.7, text_size = 18, type = "outer")
 ```
 
 And this is how the graph looks now.
 
-```{r, fig.width=7, fig.height=7, fig.align='center'}
+```{r, fig.width=7, fig.height=5, fig.align='center'}
 p1 + 
     geom_point(aes(color = Species)) +
     geom_smooth(method = "lm", level = 0.95, size = 0.3, 
                 alpha = 0.5, aes(fill= Species)) +
     xlab("Sepal length") +
-    ylab("Petal length") +
-    legend_bottom()
+    ylab("Petal length") 
 ```
 
 
