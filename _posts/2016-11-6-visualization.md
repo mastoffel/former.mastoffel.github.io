@@ -1,6 +1,6 @@
 ---
-title: 'a publication-ready scatterplot with ggplot2 '
-description: the scatterplot
+title: 'a publication-ready plot with ggplot2'
+description: some basics
 layout: post
 output:
   html_document: default
@@ -8,7 +8,7 @@ output:
 category: coding
 ---
 
-We recently had a discussion in the departement about visualisation for science. The main concern about ggplot2 seemed to be the steep learning curve. Other programs might produce the required graphs quicker, without coding, even interactive. However, I think with a little bit of training and keeping up to date
+We recently had a discussion in the department about visualisation for science. The main concern about ggplot2 seemed to be the steep learning curve. Other programs might produce the required graphs quicker, without coding, even interactive. However, I think with a little bit of training and keeping up to date
 with the new developments in ggplot, it will be the last visualization software you have to learn. Moreover, it will give you freedom of the mind by making it possible to create whatever graphs you want and even get inspired by the newest developments in visualising data. 
 
 Here, I'd like to give a quick overview and an idea about how to produce a publication ready graph.
@@ -44,13 +44,14 @@ to have a common theme across all your plot is `ggthemr`. Check out the [ggthemr
 
 
 ```r
+# uncomment the next two lines to install ggthemr
+# install.packages("devtools")
 # devtools::install_github('cttobin/ggthemr')
 library(ggplot2)
 library(ggthemr)
 ```
 
-Now we are setting all our layouts once at the beginning. The palette specifies the colors, 
-the layout things like axis and lines and the spacing gives the plot some space between axes and labels. One thing I found really practical is text_size, which automatically adjust all text in the plot according to a reference size.
+With ggthemr, we can set our plot layout once at the beginning instead of specifying it with the `theme` argument in all our ggplots. The `palette` specifies the colors, the `layout` specifies the look of things like axes and lines and `spacing` gives the plot some space between axes and labels. One thing I found particularly useful is `text_size`, which automatically adjusts all text in the plot according to a reference size. 
 
 
 ```r
@@ -104,7 +105,7 @@ p1 +
 
 <img src="/figure/source/2016-11-6-visualization/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
-Now we can do some finetuning. First, we change the axis labels and give a title to the plot
+Now we can do some finetuning. First, we change the axis labels.
 
 
 ```r
@@ -136,8 +137,7 @@ p1 +
     geom_smooth(method = "lm", level = 0.95, size = 0.3, 
                 alpha = 0.5, aes(fill= Species)) +
     xlab("Sepal length") +
-    ylab("Petal length") +
-    legend_bottom()
+    ylab("Petal length") 
 ```
 
 <img src="/figure/source/2016-11-6-visualization/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />

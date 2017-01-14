@@ -6,22 +6,11 @@ permalink: /about/
 
 <img class="col one right" src="/img/martin.jpg">
 
-*“Two things fill the mind with ever new and increasing admiration and awe, the more often and steadily we reflect upon them: the starry heavens above me and the moral law within me."*   -Kant
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-This is one of the quotes which I discussed a lot with a good friend of mine during my studies. I feel it now has become a little piece of wisdom which I consider to be a key part of my life as a young scientist. For me, the quote is about accepting and respecting that there are things you cannot grasp and about keeping a truly open and interested mindset. Even more important, it emphasized the need to constantly reflect upon our own moral. 
 
-Although coming from a background in Psychology and Neurosciences, I'm doing a PhD somewhere in between ecology, genetics, seals, programming and statistics. For details about my work and publications please visit my my <a href="https://thehoffmanlab.com/group/martin-stoffel/" target="blank">lab's</a> website. Feel free to contact me via mail (see little symbols at the bottom) if you have any questions or ideas for collaborations in science, adventures, R programming and data analysis, photography or whatever comes to your mind!
+Coming from a background in competitive swimming, I learned quite early on to work hard on my goals without much of a reward, which is also why I thought that science might be a good career. Well, what I actually learned is that certain goals won't make a good incentive as a reward, as you never really now whether things will work out. 
+The best reward reward for me instead is nothing to reach in the future, but right now. It is the idea and believe that whatever you are doing at the moment is a good thing.  
 
+Although coming from a background in Psychology and Neurosciences, I'm doing a PhD somewhere in between ecology, genetics, seals, programming and statistics. I am especially passionate about making a little difference as a young scientist for the science system. I feel that good statistics, open data and sharing code can cause a real change in the future. Apart from publishing my  <a href="http://www.pnas.org/content/112/36/E5005?tab=ds" target="blank">data and sharing documented code</a> with <a href="https://mastoffel.github.io/mastoffel.github.io/coding/2016/10/25/reproducibility.html" target="blank">RMarkdown</a>, I enjoy writing R-packages to make the code I am developing available for a wide range of researchers. For details about my work and publications please visit my my <a href="https://thehoffmanlab.com/group/martin-stoffel/" target="blank">lab's</a> website. I am always open for collaborations!
 
 <br/>
 <hr/>
